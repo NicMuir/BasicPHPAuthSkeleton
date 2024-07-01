@@ -42,6 +42,9 @@ class LoginMiddleware implements MiddlewareInterface
 
     private function authenticate($username, $password)
     {
+        /**
+         * todo add authentication check for username and password in db
+         */
         return true;
     }
 }
